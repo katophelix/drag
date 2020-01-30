@@ -1,0 +1,129 @@
+* { box-sizing: border-box; } 
+body{
+  background-color: white;
+}
+.container { 
+  background-color: white;
+  font-family: "Montserrat", sans-serif; 
+
+/* background:rgb(247, 247, 252); */
+}
+.navbar{
+padding-left: 30px;
+
+}
+.container-resume{
+  text-align: center;
+  height: 700px;
+}
+ul{
+  color: blue;
+}
+
+.directory{
+
+  color: rgb(54, 99, 158);
+  font-size: 18px;
+  font-weight: bolder;
+}
+h1{
+color: rgb(46, 47, 49);
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+h2{
+  color: rgb(105, 76, 76);
+  font-size: 1em;
+}
+
+h3{
+  color: rgb(46, 47, 49);
+  font-size: 1em;
+  font-style: italic;
+}
+h4{
+  color: rgb(46, 47, 49);
+  font-size: .8em;
+  font-style: italic;
+  font-weight: bolder;
+}
+h5{
+  color: rgb(46, 47, 49);
+  font-size: .6em;
+  font-style: italic;
+}
+h6{
+  color: rgb(46, 47, 49);
+  font-size: .8em;
+  font-style: italic;
+}
+.page-header{
+  /* background: rgb(241, 245, 245); */
+}
+.log-container{
+ margin-left: 150px;
+}
+
+.auth-image img{
+  width: 50%;
+  height: auto;
+}
+/* ---- grid ---- */
+
+.grid {
+  background-color: white;
+  width: 100%;
+   max-width: 1200px; 
+ 
+
+  /* padding-right: 20px; */ 
+  /* height: 5200px; */
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+
+.grid-item {
+  
+  background: white;
+  border: 5px solid rgb(216, 218, 221);
+  text-align: center;
+  
+}
+
+.grid-item--width1 { width: 100px; }
+.grid-item--height1 { height: 100px; }
+.grid-item--width2 { width: 200px; }
+.grid-item--height2 { height: 200px; }
+.grid-item--width3 { width: 300px; }
+.grid-item--height3 { height: 300px; }
+
+.grid-item:hover {
+  border-color: rgb(216, 218, 221);
+  cursor: move;
+}
+
+.grid-item.ui-draggable-dragging,
+.grid-item.is-positioning-post-drag {
+  background: rgb(236, 91, 146);
+  z-index: 2;
+}
+
+.packery-drop-placeholder {
+  outline: 3px dashed hsla(0, 0%, 0%, 0.5);
+  outline-offset: -6px;
+  -webkit-transition: -webkit-transform 0.2s;
+          transition: transform 0.2s;
+}
+
+/* resize images */
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
